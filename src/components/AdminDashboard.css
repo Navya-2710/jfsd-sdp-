@@ -1,0 +1,111 @@
+/* src/components/AdminDashboard.css */
+.admin-dashboard {
+    display: flex;
+    height: 100vh;
+    background-color: #f4f7fc;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .sidebar-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar-links li {
+    margin: 15px 0;
+  }
+  
+  .sidebar-links li button {
+    background-color: #2c3e50;
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    width: 100%;
+    padding: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .sidebar-links li button:hover {
+    background-color: #3498db;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 30px;
+    background-color: white;
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .main-content h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .main-content p {
+    font-size: 18px;
+    color: #7f8c8d;
+  }
+  
+  .add-achievement, .update-participation, .reports {
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-achievement h2, .update-participation h2, .reports h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .add-achievement form, .update-participation form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-achievement input, .update-participation input, .update-participation select, .add-achievement textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .add-achievement button, .update-participation button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-achievement button:hover, .update-participation button:hover {
+    background-color: #2980b9;
+  }
+  
+  .reports .report-output {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+  }
+  
+  
+  
+  

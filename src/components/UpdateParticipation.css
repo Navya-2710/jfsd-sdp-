@@ -1,0 +1,35 @@
+.update-participation {
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .update-participation h2 {
+    text-align: center;
+  }
+  
+  .achievement-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .achievement-item {
+    margin-bottom: 10px;
+  }
+  
+  .submit-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .submit-button:hover {
+    background-color: #45a049;
+  }
+  

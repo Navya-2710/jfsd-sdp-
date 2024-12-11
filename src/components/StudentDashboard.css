@@ -1,0 +1,118 @@
+.student-dashboard {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1200px;
+  }
+  
+  .dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2196f3;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .logout-btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .logout-btn:hover {
+    background-color: #d32f2f;
+  }
+  
+  .dashboard-nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .dashboard-nav button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .dashboard-nav button:hover {
+    background-color: #388e3c;
+  }
+  
+  .dashboard-content {
+    text-align: center;
+  }
+  
+  .activity-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .activity-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .activity-card-img img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .activity-title {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .activity-description {
+    font-size: 14px;
+    color: #777;
+    padding: 0 10px;
+  }
+  
+  .view-details-btn {
+    margin: 10px 0;
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .view-details-btn:hover {
+    background-color: #1976d2;
+  }
+  
+  .loading,
+  .no-activities {
+    font-size: 16px;
+    color: #555;
+    margin-top: 20px;
+  }
+  
+  
+  
+
+  
+  
+  
+  

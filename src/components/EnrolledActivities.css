@@ -1,0 +1,17 @@
+.enrolled-activities {
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .enrolled-activities h1 {
+    font-size: 2.5rem;
+    color: #FF5722;
+  }
+  
+  .enrolled-activities p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 10px;
+  }
+  

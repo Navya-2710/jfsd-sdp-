@@ -1,0 +1,104 @@
+/* General styling for register page */
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ecf0f1; /* Background color added */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Styling for the register box */
+  .register-box {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  /* Heading styling */
+  .register-box h1 {
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+    color: #3498db;
+    font-weight: bold;
+  }
+  
+  /* Form input fields */
+  .register-input {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+  }
+  
+  /* Focus effect for input fields */
+  .register-input:focus {
+    border-color: #3498db;
+    outline: none;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+  }
+  
+  /* Register button */
+  .register-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #3498db; /* Same as login button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect for register button */
+  .register-btn:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Redirect to login link */
+  .login-redirect {
+    margin-top: 20px;
+    font-size: 1rem;
+  }
+  
+  .login-redirect a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  .login-redirect a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Media Query for smaller screens */
+  @media (max-width: 480px) {
+    .register-box {
+      padding: 30px;
+    }
+  
+    .register-box h1 {
+      font-size: 1.8rem;
+    }
+  
+    .register-input {
+      font-size: 0.9rem;
+      padding: 12px;
+    }
+  
+    .register-btn {
+      font-size: 1rem;
+    }
+  }
+  
+  
+  
+  

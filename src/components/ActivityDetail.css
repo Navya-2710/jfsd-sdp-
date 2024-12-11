@@ -1,0 +1,57 @@
+.activity-detail {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .activity-image {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 10px;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+  }
+  
+  .enrollment-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .enroll-button, .unenroll-button, .back-button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .enroll-button {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .unenroll-button {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .back-button {
+    background-color: #2196f3;
+    color: white;
+  }
+  
+  
+  
